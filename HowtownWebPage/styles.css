@@ -1,0 +1,105 @@
+/*@font-face {
+    font-family: 'Orbitron';
+    src: url('./Fonts/Orbitron.ttf') format('truetype');
+    font-weight:bold;
+    font-style:normal;
+    
+}*/
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    /*background: linear-gradient(grey, white);*/
+}
+.header{
+    display: flex;
+    padding-top: 0;
+    background-color: lightblue;
+    text-align: center;
+    background: url(Images/UKbanner.jpg);
+    background-size: cover;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    
+    background-position: center;
+    width: 100%;
+
+    /* Forces the box to behave like a video player. 
+       On mobile, it automatically shrinks its height to stay proportional! */
+    aspect-ratio: 16 / 7;
+
+}
+.heading
+{
+    margin-top: 80px;
+    width: 200px;
+    background-color: #457B9D;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 8px;
+    text-shadow: 1px 1px black;
+}
+.tagline
+{
+    margin-top: 0;
+    width: 300px;
+    background-color: #1D3557;
+    border-radius: 8px;
+    text-shadow: 1px 1px black;
+    padding: 3px 4px;
+}
+.activities{
+
+    background-color: #F1FAEE;
+    text-align: center;
+}
+#activities-header
+{
+    margin-top: 0;
+    padding-top: 20px;
+    color: #1D3557;
+}
+.places{
+    display: flex;
+    justify-content: space-around;
+}
+.places-img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.place-name
+{
+    margin: 10px 0px 0px 0px ;
+}
+.place-description
+{
+   font-size: 14px;
+   padding: 5px 10px 20px 10px ;
+}
+
+.avatar {
+    width: 150px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.card {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #A8DADC;
+    color: black;
+
+    border-radius: 10px;
+    text-shadow:black;
+    
+}
